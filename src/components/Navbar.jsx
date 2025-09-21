@@ -11,26 +11,38 @@ const Navbar = () => {
       </div>
       <ul className="nav-links">
         <li>
-          <a className="nav-link" href="#home">Projects</a>
+          <a className="nav-link" href="#home">
+            Projects
+          </a>
         </li>
         <li>
-          <a className="nav-link" href="#home">Experience</a>
+          <a className="nav-link" href="#home">
+            Experience
+          </a>
         </li>
         <li>
-          <a className="nav-link" href="#home">Skills</a>
+          <a className="nav-link" href="#home">
+            Skills
+          </a>
         </li>
         <li>
-          <a className="nav-link" href="#home">Education</a>
+          <a className="nav-link" href="#home">
+            Education
+          </a>
         </li>
         <li>
-          <a className="nav-link" href="#home">Certifications</a>
+          <a className="nav-link" href="#home">
+            Certifications
+          </a>
         </li>
         <li>
-          <a className="nav-link" href="#home">Contact</a>
+          <a className="nav-link" href="#home">
+            Contact
+          </a>
         </li>
       </ul>
       <div className="nav-btns">
-        <Button type="small" text={null} icon="fa fa-sliders"/>
+        <Button type="small" text={null} icon="fa fa-sliders" />
         <Button type="medium" text="Resume" />
       </div>
     </nav>

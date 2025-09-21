@@ -1,31 +1,45 @@
-.small {
-    background: radial-gradient(circle, rgb(173, 216, 230), rgb(144, 238, 144));
-    padding: 10px;
-    color: rgb(24, 62, 62);
-    font-size: 15px;
-    font-weight: 800;
+.small,
+.medium,
+.large {
     border: none;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px darkseagreen;
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.small {
+    background: rgba(50, 50, 50, 0.8);
+    color: #E0E0E0;
+    border: 1px solid #444;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+}
+
+.small:hover {
+    background-color: #383838;
 }
 
 .medium {
-    background: linear-gradient(120deg, darkslateblue, slateblue, darkslateblue);
-    padding: 10px 14px;
-    color: white;
-    font-size: 15px;
-    font-weight: 600;
-    text-shadow: 0px 0px 3px darkblue;
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 255, 0.4);
+    background: #BB86FC;
+    color: #121212;
+    box-shadow: 0px 0px 8px rgba(187, 134, 252, 0.5);
+}
+
+.medium:hover {
+    background: #C6A4F8;
+    box-shadow: 0px 0px 12px rgba(187, 134, 252, 0.8);
+    transform: translateY(-2px);
 }
 
 .large {
-    background: linear-gradient(120deg, rgb(25, 51, 51), rgb(57, 90, 90));
-    padding: 10px 14px;
-    color: whitesmoke;
-    border: 3px solid rgb(20, 43, 43);
-    border-radius: 8px;
-    font-weight: 600;
+    background: rgba(0,0,0,0.7);
+    border: 2px solid #03DAC6;
+    color: #03DAC6;
+}
+
+.large:hover {
+    background: #03DAC6;
+    color: #121212;
+    transform: translateY(-2px);
 }

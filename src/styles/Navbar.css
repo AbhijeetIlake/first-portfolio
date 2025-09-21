@@ -1,51 +1,56 @@
 .navbar {
-    background: rgb(28, 28, 28);
+    background: rgba(28, 28, 28, 0.9);
+    backdrop-filter: blur(8px);
     color: white;
-    padding: 15px 50px;
-    height: 14vh;
-    display: flex; 
+    padding: 1rem 3rem;
+    height: 12vh;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    border: none;
-    box-shadow: 0px 0px 8px silver ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
     position: sticky;
     left: 0;
     top: 0;
     width: 100vw;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 1rem;
 }
 
 .logoText {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 800;
-    color: antiquewhite;
+    color: #BB86FC;
     letter-spacing: 1.5px;
-    font-family:Arial, Helvetica, sans-serif
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 20px;
-    font-size: 15px;
+    gap: 1.5rem;
+    font-size: 0.7rem;
     font-weight: 600;
     list-style: none;
 }
 
 .nav-link {
     text-decoration: none;
-    color: white;
+    color: #E0E0E0;
     transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #03DAC6;
 }
 
 .nav-btns {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 1rem;
 }

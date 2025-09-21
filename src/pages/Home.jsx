@@ -8,7 +8,8 @@ const Home = () => {
   return (
     <div className="hero-section">
       <Navbar />
-      <div className="overlay">'<div className="section-two">
+      <div className="overlay">
+        <div className="section-two">
           <p className="sub-heading">MERN STACK DEVELOPER</p>
           <h1 className="heading">Abhijeet Ilake</h1>
           <p className="sub-heading">
@@ -19,7 +20,7 @@ const Home = () => {
             <Button type="large" text="Get in touch" icon="fa fa-paper-plane" />
             <Button type="large" text="Download Resume" icon="fa fa-download" />
           </div>
-        </div>'
+        </div>
         <div className="section-one">
           <div className="cards-section">
             <h3 className="skills-heading">
@@ -46,7 +47,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );

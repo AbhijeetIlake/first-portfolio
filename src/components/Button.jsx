@@ -1,10 +1,12 @@
-import React from 'react'
-import '../styles/Btn.css'
+import React from "react";
+import "../styles/Btn.css";
 
 const Button = (props) => {
   return (
-    <button className={props.type}><i className={props.icon} aria-hidden="true"></i>     {props.text} </button>
-  )
-}
+    <button className={props.type}>
+      <i className={props.icon} aria-hidden="true"></i> {props.text}
+    </button>
+  );
+};
 
-export default Button
+export default Button;
